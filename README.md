@@ -1,16 +1,6 @@
-# primera_aplicacion
+# ¿Cómo subir proyectos a Git? ¡¡Tutorial explicado y en español!! 
 
-A new Flutter project.
+Lo primero que debes hacer, es abrir tu editor de código favorito, en lo personal uso Visual Studio Code.
+Posteriormente abres tu proyecto que deseas subir a git.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
