@@ -1,11 +1,10 @@
-# ¿Cómo subir proyectos a Git? Tutorial sencillo explicado en español 2024.
+# ¿Cómo subir proyectos a Git? Guía 2024.
 
-Lo primero que debes hacer, es abrir tu editor de código favorito, en lo personal uso Visual Studio Code.
-Posteriormente abres tu proyecto que deseas subir a git.
+Lo primero que debes hacer, es abrir tu editor de código favorito, la opción más
+utilizada es Visual Studio Code. Posteriormente abres tu proyecto que deseas subir a git.
 
 Abrimos una terminal. Puedes abrir la terminal por defecto que tienen todos los Sistemas Operativos en 
-cualquier plataforma. 
-En mi caso, uso la de VS Code, que ya viene integrada.
+cualquier plataforma. En mi caso, uso la de VS Code, que ya viene integrada.
 
 Sigue los siguientes pasos:
 
@@ -36,7 +35,7 @@ Paso 5. Después de hacer un commit, se tiene que verificar la rama en la que te
 `git branch`. Este comando te mostrará todas las ramas activas en ese repositorio, y la rama en la que el usuario está
 ubicado se distingue por el aterisco y por el color de dicha rama.
 
-    Paso 5.1. Si deseas cambiar de rama, puedes hacerlo mediante el comando `git checkout nombre_rama`, este te va a 'direccionar' a la rama que desees en caso de que tengas más de una rama.
+Paso 5.1. Si deseas cambiar de rama, puedes hacerlo mediante el comando `git checkout nombre_rama`, este te va a 'direccionar' a la rama que desees en caso de que tengas más de una rama.
 
 Paso 6. Ya que estés seguro de la rama en la que se subirá tu proyecto, con el siguiente comando `git remote add origin https://github.com/NombreUsuario/repositorio.git`.
 
@@ -47,7 +46,7 @@ El comando como ejemplo quedaría de la siguiente manera `git remote add origin 
 Paso 7. Luego, existe el comando `git pull`, que nos permite preparar los archivos para subirlos a git.
 Paso 8. Por último, hacemos `git push -u origin nombre_rama` para enviar los archivos cargados al repositorio de GitHub.
 
-**Solución al momento de subir el proyecto a nuestro repositorio.**
+### Preguntas Frecuentes
 
 ¿Si tengo problemas para subir el repositorio, cómo le hago?
 
