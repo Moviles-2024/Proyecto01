@@ -35,22 +35,24 @@ Paso 5. Después de hacer un commit, se tiene que verificar la rama en la que te
 `git branch`. Este comando te mostrará todas las ramas activas en ese repositorio, y la rama en la que el usuario está
 ubicado se distingue por el aterisco y por el color de dicha rama.
 
-Paso 5.1. Si deseas cambiar de rama, puedes hacerlo mediante el comando `git checkout nombre_rama`, este te va a 'direccionar' a la rama que desees en caso de que tengas más de una rama.
+Paso 6. Si deseas cambiar de rama, puedes hacerlo mediante el comando `git checkout nombre_rama`, este te va a 'direccionar' a la rama que desees en caso de que tengas más de una rama.
 
-Paso 6. Ya que estés seguro de la rama en la que se subirá tu proyecto, con el siguiente comando `git remote add origin https://github.com/NombreUsuario/repositorio.git`.
+Paso 7. Ya que estés seguro de la rama en la que se subirá tu proyecto, con el siguiente comando `git remote add origin https://github.com/NombreUsuario/repositorio.git`.
 
-### Ejemplo del comando del paso 6.
+### Ejemplo del comando del paso 7.
 
 El comando como ejemplo quedaría de la siguiente manera `git remote add origin https://github.com/NombreUsuario/repositorio.git`
 
 Paso 7. Luego, existe el comando `git pull`, que nos permite preparar los archivos para subirlos a git.
+
 Paso 8. Por último, hacemos `git push -u origin nombre_rama` para enviar los archivos cargados al repositorio de GitHub.
 
-### Preguntas Frecuentes
-
-¿Si tengo problemas para subir el repositorio, cómo le hago?
-
-R. Puedes probar el siguiente comando `git remote remove origin` para eliminar la dirección URL del repositorio anterior de Git, ya que este te causa conflicto con el repositorio actual.
+## SOLUCIÓN A ERRORES
+> **No puedo subir otro repositorio a Git ya que la consola me manda un mensaje de error. ¿Cómo le puedo hacer?**
+> 
+> Con el comando `git remote -v` te van a aparecer algún repositorio con su URL. Es por ello que te marca error,
+> para solucionarlo, puedes probar el siguiente comando `git remote remove origin` para eliminar la dirección URL del repositorio
+> anterior,
 
 
 
