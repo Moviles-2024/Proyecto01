@@ -43,9 +43,9 @@ Paso 7. Ya que estés seguro de la rama en la que se subirá tu proyecto, con el
 
 El comando como ejemplo quedaría de la siguiente manera `git remote add origin https://github.com/NombreUsuario/repositorio.git`
 
-Paso 7. Luego, existe el comando `git pull`, que nos permite preparar los archivos para subirlos a git.
+Paso 8. Luego, existe el comando `git pull`, que nos permite preparar los archivos para subirlos a git.
 
-Paso 8. Por último, hacemos `git push -u origin nombre_rama` para enviar los archivos cargados al repositorio de GitHub.
+Paso 9. Por último, hacemos `git push -u origin nombre_rama` para enviar los archivos cargados al repositorio de GitHub.
 
 ## SOLUCIÓN A ERRORES
 > **No puedo subir otro repositorio a Git ya que la consola me manda un mensaje de error. ¿Cómo le puedo hacer?**
